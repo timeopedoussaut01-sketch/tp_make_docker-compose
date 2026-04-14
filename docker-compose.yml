@@ -5,10 +5,10 @@ services:
     container_name: mysql-container
     restart: always
     environment:
-      MYSQL_DATABASE: company
-      MYSQL_USER: user
-      MYSQL_PASSWORD: password
-      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: CESI
+      MYSQL_USER: Timeo
+      MYSQL_PASSWORD: root
+      MYSQL_ROOT_PASSWORD: root
     volumes:
       - db_data:/var/lib/mysql
 
