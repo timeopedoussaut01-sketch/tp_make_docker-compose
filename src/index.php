@@ -11,7 +11,7 @@ $dbname = "company";
 // Création de la connexion
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Vérification
-if $conn→connect_error) {
+if ($conn→connect_error) {
 die("<p style='color:red'>❌ Echec de la connexion MySQL  " . $conn→connect_error . "</p>");
 }
 echo "<p style='color:green'>✅ Succès ! PHP est connecté à MySQL.</p
